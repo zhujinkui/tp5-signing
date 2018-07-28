@@ -1,0 +1,22 @@
+{
+    "name": "zhujinkui/tp5-signing",
+    "description": "Three party online contract signing based on ThinkPHP5 integration.",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "zhujinkui",
+            "email": "developer@zhujinkui.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "autoload": {
+        "files": ["tools/function.php"],
+        "psr-4": {
+            "think\\": "src/"
+        }
+    }
+}
