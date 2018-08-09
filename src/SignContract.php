@@ -37,7 +37,7 @@ class SignContract
 	{
 	    // 判断是否有设置配置项.此配置项为数组，做一个兼容
 	    if (Config::has('contract')) {
-	        $this->configs = Config::get('contract');
+	        $this->config = Config::pull('contract');
 	    }
 	}
 
